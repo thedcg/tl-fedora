@@ -1,0 +1,6 @@
+################################
+# Dockerfile: thedcg/tl-fedora-luatex-noto-cjk:39
+
+# Base
+FROM fedora:39
+
