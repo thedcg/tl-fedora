@@ -19,12 +19,12 @@ RUN date --iso-8601=ns\
  && dnf install -y\
 	curl\
 	perl\
-	  libencode-perl\
-	  libipc-run-perl\
-	  libipc-run-safehandles-perl\
-	  libjson-perl\
-	  liburi-encode-perl\
-	  liburi-perl\
+	  perl-Encode\
+	  perl-IPC-Run\
+	  perl-IPC-Run-SafeHandles\
+	  perl-JSON\
+	  perl-URI-Encode\
+	  perl-URI\
 	zip\
 	unzip\
 	dos2unix\
@@ -34,9 +34,9 @@ RUN date --iso-8601=ns\
 	bc\
 	make\
 	git\
-	openssh-client\
+	openssh-clients\
 	python3-pygments\
-	xz-utils\
+	xz\
 	tex-common\
 	latex-cjk-all\
 	texlive-plain-generic\
@@ -62,7 +62,7 @@ RUN date --iso-8601=ns\
 	qpdf\
 	pngcheck\
 	qrencode\
-	imagemagick\
+	ImageMagick\
 	libtiff-tools\
  && echo "${TZ}" > /etc/timezone\
  && ln -sf "/usr/share/zoneinfo/${TZ}" /etc/localtime\
