@@ -38,6 +38,7 @@ RUN date --iso-8601=ns\
 	python3-pygments\
 	xz\
 	texlive-luatex\
+	texlive-luatexja\
 	texlive-metapost\
 	google-noto-cjk-fonts\
 	google-noto-emoji-fonts\
