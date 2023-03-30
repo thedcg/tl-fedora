@@ -37,24 +37,14 @@ RUN date --iso-8601=ns\
 	openssh-clients\
 	python3-pygments\
 	xz\
-	tex-common\
-	latex-cjk-all\
-	texlive-plain-generic\
-	texlive-lang-cjk\
-	texlive-lang-greek\
-	texlive-lang-polish\
-	texlive-lang-arabic\
-	texlive-lang-other\
-	texlive-latex-extra\
 	texlive-luatex\
-	texlive-pictures\
-	texlive-science\
-	texlive-fonts-recommended\
-	texlive-fonts-extra\
 	texlive-metapost\
-	texlive-bibtex-extra\
-	texlive-publishers\
-	fonts-noto-cjk-extra\
+	google-noto-cjk-fonts\
+	google-noto-emoji-fonts\
+	google-noto-sans-cjk-fonts\
+	texlive-base\
+	texlive-cjk\
+	texlive-haranoaji-extra\
 	biber\
 	asymptote\
 	gnuplot\
