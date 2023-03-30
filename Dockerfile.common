@@ -9,10 +9,8 @@ ENV TZ=Asia/Tokyo
 
 # Update
 RUN date --iso-8601=ns\
- && apt-get update\
- && apt-get -y upgrade\
- && DEBIAN_FRONTEND=noninteractive\
-    apt-get -y install\
+ && dnf upgrade --refresh -y\
+ && dnf install -y\
 	curl\
 	perl\
 	  libencode-perl\
@@ -60,13 +58,9 @@ RUN date --iso-8601=ns\
 	qrencode\
 	imagemagick\
 	libtiff-tools\
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/*\
  && echo "${TZ}" > /etc/timezone\
  && ln -sf "/usr/share/zoneinfo/${TZ}" /etc/localtime\
- && dpkg-reconfigure --frontend noninteractive tzdata\
  && mktexlsr \
- && kanji-config-updmap-sys ipaex\
  && luaotfload-tool --update \
  && date --iso-8601=ns
 
