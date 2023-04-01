@@ -37,9 +37,8 @@ RUN date --iso-8601=ns\
 	openssh-clients\
 	python3-pygments\
 	xz\
-	google-noto-cjk-fonts\
-	google-noto-emoji-fonts\
-	google-noto-sans-cjk-fonts\
+	adobe-source-han-sans-jp-fonts\
+	adobe-source-han-serif-jp-fonts\
 	texlive-base\
 	texlive-cjk\
 	texlive-haranoaji\
