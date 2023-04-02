@@ -34,12 +34,23 @@ RUN date --iso-8601=ns\
 	adobe-source-han-sans-jp-fonts\
 	adobe-source-han-serif-jp-fonts\
 	texlive-base\
-	texlive-cjk\
+	texlive-collection-langcjk\
+	texlive-collection-langgreek\
+	texlive-collection-langpolish\
+	texlive-collection-langarabic\
+	texlive-collection-langother\
+	texlive-collection-latexextra\
+	texlive-collection-luatex\
+	texlive-luatexja\
+	texlive-collection-pictures\
+	texlive-collection-mathscience\
+	texlive-collection-fontsrecommended\
+	texlive-collection-fontsextra\
+	texlive-collection-metapost\
+	texlive-collection-bibtexextra\
+	texlive-collection-publishers\
 	texlive-haranoaji\
 	texlive-haranoaji-extra\
-	texlive-luatex\
-	texlive-luatexja\
-	texlive-metapost\
 	biber\
 	asymptote\
 	gnuplot\
